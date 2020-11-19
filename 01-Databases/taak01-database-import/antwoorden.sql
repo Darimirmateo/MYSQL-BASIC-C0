@@ -15,3 +15,8 @@ SELECT name AND age FROM players WHERE nationality = "Spain" AND wage = 15000
 
 SELECT * FROM players WHERE nationality = "Spain" AND wage = 260000;
 
+
+
+EINDOPDRACHT CODE:
+SELECT * FROM videogamesales
+SELECT name FROM videogamesales WHERE year="1999"

@@ -31,3 +31,18 @@ SELECT * FROM videogamesales WHERE jp_sales = 532
 SELECT COUNT(*) as global_sales FROM videogamesales WHERE publisher = "nintendo"
 
 SELECT name year FROM videogamesales WHERE genre= "racing" OR publisher = "nintendo"
+
+SELECT AVG(na_sales) AS na_sales, jp_sales, eu_sales FROM videogamesales
+
+
+
+
+DELETE FROM videogamesales WHERE name = "halo 2" and publisher = "xbox"
+
+DELETE FROM videogamesales WHERE publisher="ubisoft" AND year="2012"
+
+DELETE FROM videogamesales WHERE publisher="nintendo" AND genre="adventure"
+
+DELETE FROM videogamesales WHERE global_sales < 1000 AND publisher="nintendo"
+
+DELETE FROM videogamesales WHERE year = 1997 AND na_sales > 200000 

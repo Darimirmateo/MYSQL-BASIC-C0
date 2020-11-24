@@ -46,3 +46,5 @@ DELETE FROM videogamesales WHERE publisher="nintendo" AND genre="adventure"
 DELETE FROM videogamesales WHERE global_sales < 1000 AND publisher="nintendo"
 
 DELETE FROM videogamesales WHERE year = 1997 AND na_sales > 200000 
+
+aantwoorder

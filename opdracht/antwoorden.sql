@@ -1,7 +1,14 @@
--- -- Taak01 - haal de tabel movies op:
+XAMP geinstalleerd
+geen opdracht/alleen theorie
 SELECT * FROM movies
 
+SELECT title, rating FROM movies
+
+SELECT name, platform FROM videogamesales
+
 SELECT * FROM jaar2015 WHERE country="Iceland"
+
+SELECT * FROM jaar2016 
 
 SELECT nationality FROM `players` WHERE "chelsea"
 
@@ -12,6 +19,8 @@ SELECT name FROM players WHERE nationality = "Spain" AND wage = 15000
 
 SELECT name AND age FROM players WHERE nationality = "Spain" AND wage = 15000
 
+
+SELECT * FROM players WHERE nationality = "Spain" AND wage = 260000;
 
 SELECT * FROM players WHERE nationality = "Spain" AND wage = 260000;
 
@@ -46,12 +55,13 @@ DELETE FROM videogamesales WHERE publisher="nintendo" AND genre="adventure"
 DELETE FROM videogamesales WHERE global_sales < 1000 AND publisher="nintendo"
 
 DELETE FROM videogamesales WHERE year = 1997 AND na_sales > 200000 
-Opdracht 1 
 
+//EINDOPDRACHT
+SELECT * FROM videogamesales
 -- Opdracht 2 
-
+SELECT * FROM videogamesales WHERE year= 1999
 -- Opdracht 3
-
+SELECT na_sales FROM videogamesales WHERE genre="sports"
 -- Opdracht 4
 
 -- Opdracht 5
